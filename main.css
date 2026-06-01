@@ -231,3 +231,53 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+.stats {
+    padding: 80px 0;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.stats-grid div {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+}
+
+.stats-grid h2 {
+    color: #2563eb;
+    font-size: 40px;
+}
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.review {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+}
+
+.review p {
+    margin-bottom: 20px;
+}
+
+.newsletter {
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
