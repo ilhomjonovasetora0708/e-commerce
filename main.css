@@ -63,3 +63,44 @@ body {
 .cart {
     position: relative;
 }
+#cart-count {
+    position: absolute;
+    top: -10px;
+    right: -12px;
+    background: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: white;
+    padding: 100px 0;
+}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
