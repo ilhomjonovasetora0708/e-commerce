@@ -104,3 +104,27 @@ body {
     line-height: 1.8;
     margin-bottom: 30px;
 }
+.shop-btn {
+    padding: 15px 35px;
+    border: none;
+    background: white;
+    color: #2563eb;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.shop-btn:hover {
+    transform: scale(1.08);
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+}
