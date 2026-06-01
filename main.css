@@ -281,3 +281,33 @@ body {
     margin-bottom: 20px;
     font-size: 40px;
 }
+.newsletter input {
+    width: 350px;
+    max-width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    color: #2563eb;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background: #111827;
+    color: white;
+    padding: 60px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
