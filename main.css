@@ -311,3 +311,34 @@ footer {
     justify-content: space-between;
     gap: 30px;
 }
+.footer-content i {
+    font-size: 22px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@media(max-width:900px) {
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .hero-text h1 {
+        font-size: 42px;
+    }
+
+    .category-grid,
+    .product-grid,
+    .stats-grid,
+    .reviews {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .menu {
+        display: none;
+    }
+}
