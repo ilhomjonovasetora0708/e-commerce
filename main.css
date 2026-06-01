@@ -205,3 +205,29 @@ body {
     border-radius: 10px;
     cursor: pointer;
 }
+.sale {
+    background: linear-gradient(135deg, #f97316, #ef4444);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.sale h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.sale p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.sale button {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    color: #ef4444;
+    font-weight: bold;
+    cursor: pointer;
+}
